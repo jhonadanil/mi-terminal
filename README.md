@@ -20,6 +20,7 @@ Ejecuta este comando en PowerShell:
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ./install.ps1
 
+---
 
 ## 🎨 Personalizar la configuracion de la terminal
 
@@ -43,7 +44,9 @@ Además de los temas de Oh My Posh, también utilizo un esquema de colores dentr
 ]
 '''
 
-configura la opacida, el tamaño y la fuente a tus gustos y ya tendrias una termila parecida a la mia
+Configura la opacida, el tamaño y la fuente a tus gustos
+
+---
 
 ## 📬 Contacto
 
