@@ -1,5 +1,7 @@
 # 💻 Mi configuración personalizada de PowerShell
 
+![im3](./img/3.png)
+
 Este repositorio contiene mi configuración completa de PowerShell tal como la uso en mi entorno diario. Incluye:
 
 - PowerShell 7+
@@ -9,6 +11,10 @@ Este repositorio contiene mi configuración completa de PowerShell tal como la u
 - Predicciones de comandos con **PSReadLine** en modo `ListView`
 - Mi archivo de perfil (`$PROFILE`) con toda la configuración integrada
 - Colores del terminal configurados desde el JSON de Windows Terminal
+
+![im2](./img/2.png)
+
+![im1](./img/1.png)
 
 ---
 
@@ -35,7 +41,8 @@ Además de los temas de Oh My Posh, también utilizo un esquema de colores dentr
 5. Añade dentro el contenido de 'colores.json', por ejemplo:
 
 '''json
-"schemes":[
+"schemes":
+[
    {
         "background": "#EFF1F5",
         "black": "#5C5F77",
@@ -44,7 +51,11 @@ Además de los temas de Oh My Posh, también utilizo un esquema de colores dentr
 ]
 '''
 
+---
+
 Configura la opacida, el tamaño y la fuente a tus gustos
+
+![im4](./img/4.png)
 
 ---
 
