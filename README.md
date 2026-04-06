@@ -1,4 +1,4 @@
-# 💻 Mi configuración de terminal de PowerShell
+# 💻 Mi configuración de PowerShell
 
 ![im3](./img/3.png)
 
