@@ -1,4 +1,4 @@
-# 💻 Mi configuración personalizada de PowerShell
+# 💻 Mi configuración de PowerShell
 
 ![im3](./img/3.png)
 
@@ -71,7 +71,7 @@ Además de los temas de Oh My Posh, también utilizo un esquema de colores dentr
 
 ---
 
-Puedes ajustar la opacidad, el tamaño y la fuente a tu gusto.
+Puedes ademas ajustar la opacidad, el tamaño y la fuente a tu gusto.
 
 ![im4](./img/4.png)
 
