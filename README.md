@@ -2,7 +2,7 @@
 
 # 💻 Mi configuración de terminal PowerShell 
 
-![preview](./img/3.png)
+![demo](./img/demo1.gif)
 
 Este repositorio contiene mi configuración de terminal en Windows, enfocada en productividad, minimalismo y una experiencia moderna en PowerShell.
 
@@ -53,6 +53,9 @@ notepad $PROFILE
 ```
 2. Copia y pega la configuracion del archivo profile.ps1
 3. Guarda y cierra el bloc de notas
+
+![demo](./img/demo1.gif)
+
 ---
 
 
@@ -85,13 +88,11 @@ Cierra y vuelve a abrir Windows Terminal para aplicar todos los cambios.
 
 ![preview1](./img/1.png)
 ![preview2](./img/2.png)
-![preview3](./img/4.png)
 
 ---
 
 ## ⚠️ Requisitos
 
-* Windows 10 / 11
 * PowerShell 7+
 * Windows Terminal
 * winget instalado
@@ -103,14 +104,3 @@ Cierra y vuelve a abrir Windows Terminal para aplicar todos los cambios.
 * 📧 Email: [jhonyprius@gmail.com](mailto:jhonyprius@gmail.com)
 * 💼 LinkedIn: https://www.linkedin.com/in/danilchuk-jhonatan/
 
----
-
-## ⭐ Notas
-
-* Asegúrate de usar una **Nerd Font** para ver correctamente los iconos.
-* Puedes personalizar colores, opacidad y fuente a tu gusto.
-* Si algo no funciona, reinicia la terminal después de la instalación.
-
----
-
-💡 Setup pensado para ser simple, bonito y funcional.
