@@ -1,8 +1,8 @@
-# Inicializar Oh My Posh con el tema Dracula
-oh-my-posh init pwsh --config ~/dracula.omp.json | Invoke-Expression
+# iniciar prompt
+Invoke-Expression (&starship init powershell)
 
-# Iconos en el explorador de PowerShell
+# importar iconos
 Import-Module -Name Terminal-Icons
 
-# Predicción de comandos estilo lista
+# importar Predicción de comandos estilo lista
 Set-PSReadLineOption -PredictionViewStyle ListView

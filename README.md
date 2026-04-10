@@ -1,83 +1,109 @@
-# 💻 Mi configuración de PowerShell
+# 💻 Mi configuración de terminal powershell
 
-![im3](./img/3.png)
+![preview](./img/3.png)
 
-Este repositorio contiene mi configuración completa de PowerShell tal como la uso en mi entorno diario. Incluye:
-
-* PowerShell 7+
-* Oh My Posh instalado con winget
-* Tema **Dracula** para Oh My Posh
-* Iconos mediante el módulo **Terminal-Icons**
-* Predicciones de comandos con **PSReadLine** en modo `ListView`
-* Mi archivo de perfil (`$PROFILE`) con toda la configuración integrada
-* Colores del terminal configurados desde el JSON de Windows Terminal
-
-![im2](./img/2.png)
-
-![im1](./img/1.png)
+Este repositorio contiene mi configuración completa de terminal en Windows, enfocada en productividad, minimalismo y una experiencia moderna en PowerShell.
 
 ---
 
-## 🚀 Instalación automática
+## ✨ Características
 
-Ejecuta estos comandos en PowerShell:
+* ⚡ Prompt moderno con **Starship**
+* 🎨 Esquema de colores **Catppuccin**
+* 🔤 Fuente **Nerd Font** para iconos
+* 📁 Iconos en la terminal con **Terminal-Icons**
+* 🔮 Predicción de comandos estilo lista (PSReadLine)
+* 🖥️ Configuración personalizada de **Windows Terminal**
+
+---
+
+## 🚀 Instalación
+
+Todas las instalaciones están automatizadas en el archivo `install.ps1`.
+
+### 1️⃣ Ejecutar instalación
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-./install.ps1
+.\install.ps1
 ```
 
 ---
 
-## 🎨 Personalizar la configuración de la terminal
+## 📦 Qué instala `install.ps1`
 
-Además de los temas de Oh My Posh, también utilizo un esquema de colores dentro de la configuración de PowerShell.
+```powershell
+# Instalar Terminal-Icons
+Install-Module -Name Terminal-Icons -Scope CurrentUser -Force
 
-## ✔️ Añadir `colores.json` a Windows Terminal
+# Instalar fuente Nerd Font
+oh-my-posh font install
 
-1. Abre Windows Terminal
-2. Ve a la configuración
-3. En la parte inferior izquierda, haz clic en **"Abrir archivo JSON"**
-4. Dentro del archivo, busca la sección `"schemes": []`
-5. Añade dentro el contenido de `colores.json`, por ejemplo:
+# Predicción de comandos estilo lista
+Set-PSReadLineOption -PredictionViewStyle ListView
 
-```json
-"schemes": [
-   {
-    "background": "#1E1E2E",
-    "black": "#45475A",
-    "blue": "#89B4FA",
-    "brightBlack": "#585B70",
-    "brightBlue": "#89B4FA",
-    "brightCyan": "#94E2D5",
-    "brightGreen": "#A6E3A1",
-    "brightPurple": "#F5C2E7",
-    "brightRed": "#F38BA8",
-    "brightWhite": "#A6ADC8",
-    "brightYellow": "#F9E2AF",
-    "cursorColor": "#F5E0DC",
-    "cyan": "#94E2D5",
-    "foreground": "#CDD6F4",
-    "green": "#A6E3A1",
-    "name": "Catppuccin Mocha",
-    "purple": "#F5C2E7",
-    "red": "#F38BA8",
-    "selectionBackground": "#585B70",
-    "white": "#BAC2DE",
-    "yellow": "#F9E2AF"
-    }
-]
+# Instalar Starship prompt
+winget install --id Starship.Starship
+
+# Crear archivo de perfil
+New-Item -Path $PROFILE -Type File -Force | Out-Null
 ```
 
 ---
 
-Puedes ademas ajustar la opacidad, el tamaño y la fuente a tu gusto.
+## ⚙️ Configuración del perfil (`profile.ps1`)
 
-![im4](./img/4.png)
+Este archivo configura el comportamiento de PowerShell al iniciar:
+
+```powershell
+# Iniciar Starship
+Invoke-Expression (&starship init powershell)
+
+# Importar iconos
+Import-Module -Name Terminal-Icons
+
+# Predicción de comandos estilo lista
+Set-PSReadLineOption -PredictionViewStyle ListView
+```
+
+---
+
+## 🎨 Configuración de Windows Terminal
+
+Este repositorio incluye un archivo `settings.json` con:
+
+* Esquemas de color **Catppuccin (Latte, Macchiato, Mocha)**
+* Fuente: `FiraCode Nerd Font Mono`
+* Transparencia y personalización visual
+* Atajos de teclado personalizados (aun no añadidos)
+
+### ✔️ Aplicarlo:
+
+1. Abre **Windows Terminal**
+2. Ve a **Configuración**
+3. Haz clic en **"Abrir archivo JSON"**
+4. Reemplaza o integra el contenido de `settings.json`
+
+---
+
+## 🖼️ Preview
+
+![preview1](./img/1.png)
+![preview2](./img/2.png)
+![preview3](./img/4.png)
+
+---
+
+## ⚠️ Requisitos
+
+* PowerShell 7+
+* Windows Terminal
+* winget instalado
 
 ---
 
 ## 📬 Contacto
 
-Email: [jhonyprius@gmail.com](mailto:jhonyprius@gmail.com)
-LinkedIn: https://www.linkedin.com/in/danilchuk-jhonatan/
+* 📧 Email: [jhonyprius@gmail.com](mailto:jhonyprius@gmail.com)
+* 💼 LinkedIn: https://www.linkedin.com/in/danilchuk-jhonatan/
+
