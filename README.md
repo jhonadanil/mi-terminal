@@ -78,7 +78,7 @@ Para que todo se vea correctamente:
 
 * Ve a Configuración → Perfil → Apariencia
 * Selecciona una fuente Nerd Font (recomendado: **FiraCode Nerd Font Mono**)
-* Selecciona la combinacion de colores de catppucin y 
+* Selecciona la combinacion de colores de catppuccin y opacidad que quieras 
 
 ![demo](./img/demo4.gif)
 
