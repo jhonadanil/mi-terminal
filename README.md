@@ -27,6 +27,7 @@ Este repositorio contiene mi configuración de terminal en Windows, enfocada en 
 git clone https://github.com/jhonadanil/mi-terminal.git
 cd mi-terminal
 ```
+Muevete hasta el archivo descargado en la terminal
 
 ---
 
@@ -54,7 +55,7 @@ notepad $PROFILE
 2. Copia y pega la configuracion del archivo profile.ps1
 3. Guarda y cierra el bloc de notas
 
-![demo](./img/demo1.gif)
+![demo](./img/demo2.gif)
 
 ---
 
@@ -67,6 +68,8 @@ notepad $PROFILE
 4. Copia el contenido del archivo `settings.json` de este repositorio
 5. Pégalo dentro de tu configuración (puedes reemplazarlo o integrarlo)
 
+![demo](./img/demo3.gif)
+
 ---
 
 ### 5️⃣ Seleccionar la fuente
@@ -75,19 +78,15 @@ Para que todo se vea correctamente:
 
 * Ve a Configuración → Perfil → Apariencia
 * Selecciona una fuente Nerd Font (recomendado: **FiraCode Nerd Font Mono**)
+* Selecciona la combinacion de colores de catppucin y 
+
+![demo](./img/demo4.gif)
 
 ---
 
 ### 6️⃣ Reiniciar terminal
 
 Cierra y vuelve a abrir Windows Terminal para aplicar todos los cambios.
-
----
-
-## 🖼️ Preview
-
-![preview1](./img/1.png)
-![preview2](./img/2.png)
 
 ---
 
