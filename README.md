@@ -23,10 +23,13 @@ Este repositorio contiene mi configuración de terminal en Windows, enfocada en 
 
 ### 1️⃣ Clonar el repositorio
 
+Asegurate de estar utilizando la nueva version de powershell
+
 ```powershell
 git clone https://github.com/jhonadanil/mi-terminal.git
 cd mi-terminal
 ```
+Instálalo en donde mas cómodo te sea
 Muevete hasta el archivo descargado en la terminal
 
 ---
