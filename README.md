@@ -68,8 +68,9 @@ notepad $PROFILE
 1. Abre **Windows Terminal**
 2. Ve a **Configuración**
 3. Haz clic en **"Abrir archivo JSON"**
-4. Copia el contenido del archivo `settings.json` de este repositorio
-5. Pégalo dentro de tu configuración (puedes reemplazarlo o integrarlo)
+4. Copia el contenido del archivo `settings.json` de este repositorio (solo la parte de schemes)
+5. Pégalo dentro de tu configuración (solo la parte schemes)
+6. Asegurate que el código este bien estructurado, como como el ejemplo de settings.json 
 
 ![demo](./img/demo3.gif)
 
@@ -81,7 +82,8 @@ Para que todo se vea correctamente:
 
 * Ve a Configuración → Perfil → Apariencia
 * Selecciona una fuente Nerd Font (recomendado: **FiraCode Nerd Font Mono**)
-* Selecciona la combinacion de colores de catppuccin y opacidad que quieras 
+* Selecciona la combinacion de colores de catppuccin y opacidad que quieras
+* Puesdes escribir -nologo al final de la configuracion de la linea de comandos para que no te salga nada al abrir la terminal
 
 ![demo](./img/demo4.gif)
 
