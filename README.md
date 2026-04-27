@@ -95,6 +95,7 @@ Cierra y vuelve a abrir Windows Terminal para aplicar todos los cambios.
 * PowerShell 7+
 * Windows Terminal
 * winget instalado
+* git instalado
 
 ---
 
