@@ -1,6 +1,9 @@
 # Instalar Terminal-Icons
 Install-Module -Name Terminal-Icons -Scope CurrentUser -Force
 
+# Instalar oh-my-posh
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
 # Instalar fuente Nerd Font necesaria para Dracula
 oh-my-posh font install
 
